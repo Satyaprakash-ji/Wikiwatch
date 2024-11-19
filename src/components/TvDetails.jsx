@@ -9,7 +9,7 @@ import noimage from "/noimage.webp";
 
 const TvDetails = () => {
 
-    document.title = "SCSDB | Tv Show Details";
+    document.title = "Wikiwatch | Tv Show Details";
     const { pathname } = useLocation();
     const navigate = useNavigate();
     const { id } = useParams();

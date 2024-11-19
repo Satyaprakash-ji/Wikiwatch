@@ -6,7 +6,7 @@ import Loading from "./Loading";
 import HorizontalCards from "./partials/HorizontalCards";
 
 const MovieDetails = () => {
-    document.title = "SCSDB | Movie Details";
+    document.title = "Wikiwatch | Movie Details";
 
     const { pathname } = useLocation();
     const navigate = useNavigate();

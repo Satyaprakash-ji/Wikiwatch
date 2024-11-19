@@ -10,7 +10,7 @@ import { removePerson } from "../store/reducers/personSlice";
 
 const PersonDetails = () => {
 
-    document.title = "SCSDB | Person Details";
+    document.title = "Wikiwatch | Person Details";
 
     const { pathname } = useLocation();
     const navigate = useNavigate();
